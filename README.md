@@ -25,3 +25,12 @@ contracts/
 scripts/
   deploy.js           # Example deployment script
 notes.md              # Web3 & blockchain notes
+
+## How to deploy
+
+1. Install dependencies
+   npm install
+2. Compile contracts
+   npx hardhat compile
+3. Deploy contract
+   npx hardhat run scripts/deploy.js --network localhost
